@@ -1,0 +1,5 @@
+source: app
+destination: web
+url: http://VenkteshV.github.io
+permalink: pretty
+encoding: utf-8
