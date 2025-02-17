@@ -5,5 +5,4 @@ inline: true
 related_posts: false
 ---
 
-Paper accepted at [EMNLP 2024](https://icml.cc/Conferences/2024), titled *"EXPLORA: Efficient Exemplar Subset Selection for Complex Reasoning
-"*.   🎉
+Paper accepted at [EMNLP 2024](https://icml.cc/Conferences/2024), titled **"EXPLORA: Efficient Exemplar Subset Selection for Complex Reasoning"**.   🎉
