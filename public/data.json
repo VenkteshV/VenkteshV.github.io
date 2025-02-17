@@ -1,0 +1,179 @@
+{
+  "main": {
+    "name": "Venktesh Viswanathan",
+    "occupation": "The 21st Dutch-Belgian Information Retrieval Workshop (In-Person), November 27, 2023",
+    "description": "Here will be your description. Use this to describe what you do or whatever you feel best describes yourself to a potential employer",
+    "image": "tu_delft.jpg",
+    "about":"The 21st Dutch-Belgian Information Retrieval (DIR) Workshop is a forum where researchers and practitioners in Information Retrieval come together to connect, exchange ideas, and discuss the latest developments in IR and related research areas. DIR has an established tradition dating back to the year 2000, making DIR2023 the 21st edition. Please find an incomplete list of earlier editions here ",
+    "bio": "At this full-day event there will be plenty of opportunities for students, academics, and industry professionals to interact and learn from one another.  In DIR 2023, we are excited to continue the dialogue on diversity and inclusion within the IR community. DIR 2023 will also feature special sessions shining a spotlight on the region's ongoing research. We invite you to submit contributions in three categories",
+    "categories": [
+      {"name":"Published work",
+    "description":"Share your research papers published in the past year at IR-related venues like SIGIR, ECIR, ACM TWeb, and more."},
+    {"name":"Research spotlight",
+    "description":"This category aims to spotlight emerging research directions from young academics, i.e., assistant professors, in the region."},
+    {"name":"Resources",
+    "description":"This refers to demos, datasets, experimental platforms (already presented at other venues) that are of interest to the IR community. We also welcome European projects seeking exposure  among workshop attendees, ending this event, as well as aiming to foster new partnerships, and for recruiting purposes."}
+    ],
+    "contactmessage": "Please note that the special sessions have limited presentation slots available. Our goal is to curate a diverse program that reflects the breadth of IR research across the Belgian and Dutch communities. Accepted contributions in the published work and research spotlight categories will receive a 15-minute oral presentation (12 minutes for presentation and 3 minutes for Q&A), while resources will be presented as posters.",
+    "email": "avishek.anand@tudelft.nl",
+    "phone": "",
+    "address": {
+      "street": "2628 XE Delft",
+      "city": "Delft",
+      "state": "Netherlands",
+      "zip": "2628 XE"
+    },
+    "website": "http://www.com",
+    "resumedownload": "http://.com",
+    "social": [
+      {
+        "name": "linkedin",
+        "url": "",
+        "className": "fa fa-linkedin"
+      }
+    ]
+  },
+  "resume": {
+    "skillmessage": "Thanks to our esteemed Sponsors",
+    "sponsors": [
+      {
+        "name": "None",
+        "image": "sigir.png"
+      },
+      {
+        "name": "None",
+        "image": "siks.png"
+
+      }
+    ],
+    "publications": [],
+    "team": [
+      
+      {
+        "title":"Avishek Anand, TU DELFT (Co-organizer)"
+      }, 
+      {
+        "title":"Sole Pera, TU DELFT (Co-organizer)"
+      }, 
+      {
+        "title":"Maria Heuss, University of Amsterdam (Diversity and Inclusion Panel organizer)"
+      },
+      {
+        "title":"Matteo Corsi, TU DELFT (Publicity Chair)"
+      },
+      {
+         "title":"Venktesh V, TU DELFT (Webmaster)"
+       }
+  
+       
+     ],
+    "work": [
+      {
+        "title": "9:15 - 10:45 Opening + Session 1",
+        "description": "<p className=\"scheduledescription\">Predictive Uncertainty-based Bias Mitigation in Ranking presented by <strong>Maria Heuss</strong></p>  <br /> <p>A Lightweight Method for Modeling Confidence in Recommendations with Learned Beta Distributions presented by <strong>Norman Knyazev</strong></p><br /><p>NORMalize: The First Workshop on Normative Design and Evaluation of Recommender Systems presented by <b>Sanne Vrijenhoek and Alain Starke</b></p><br/> <p>Personal Entity, Concept, and Named Entity Linking in Conversations presented by<b> Hideaki Joko</b></p><br /><p className=\"scheduledescription\">Towards Health-Aware Fairness in Food Recipe Recommendationpresented by <strong>Mehrdad Rostami</strong></p>  <br />"
+      },
+ 
+      {
+        "title": "11:30 - 12:30 Keynote Talk",
+        "description": "<p>Keynote by Professor Suzan Verberne on</p> <strong>Information Retrieval in the age of LLMs</strong>"
+      },
+      {
+        "title": "12:30 - 14:00 Lunch",
+        "description": "<p>The lunch break"
+      },
+      {
+        "title": "14:00 - 15:30 Session 2",
+        "description": "<p>OpenWebSearch.eu: An Open Web Index for Open Web Search presented by<b>Djoerd Hiemstra</b></p>  <br/> <p>Doubly-Robust Estimation for Correcting Position-Bias in Click Feedback for Unbiased Learning to Rank presented by  <b>Harrie Oosterhuis</b></p><br/> <p>An Offline Metric for the Debiasedness of Click Models  presented by <b>Philipp Hager</b></p><br/> <p>A Test Collection of Synthetic Documents for Training Rankers: ChatGPT vs. Human Experts presented by <b>Arian Askari</b></p><br/>  <p>Query Performance Prediction: From Ad-hoc to Conversational Search presented by <b>Chuan Meng</b></p><br /> <p>Safe Deployment for Counterfactual Learning to Rank with Exposure-Based Risk Minimization presented by <b>Shashank Gupta</b></p><br/>"
+      },
+      {
+        "title": "16:00 - 16:45 Diversity Session: On Relevance",
+        "description": "<p>Session on Diversity and Inclusion in Information Retrieval community presented by Cynthia C. S. Liem</p>"
+      },
+      {
+        "title": "16:45 - 17:00 Closing",
+        "description": "<p>Closing remarks</p>"
+      }
+    ],
+    "students": [
+      {
+        "name": "Anuj Shanker Saxena (Graduated)",
+        "topic":"Enforcing Privacy for Location Based Services"
+      },
+      {
+        "name": "Siddharth Dawar (Graduated)",
+        "topic": "Mining high-utility itemsets from a transaction database"
+      },
+      {
+        "name": "Swati Agarwal (Graduated)",
+        "topic": "Open source social media as sensors for enabling government identification, prediction and response applications "
+      },
+
+      {
+        "name": "Srikanth Baride",
+        "topic": "Scalable Algorithm for High-Utility Subgraph Pattern Mining over Big Data Platforms"
+      },
+      {
+        "name": "Ramneek Kaur",
+        "topic": "Spatiotemporal Computing"
+      },
+      {
+        "name": "Akshit Jindal",
+        "topic": "Unlearning"
+      },
+      {
+        "name": "Saif Ayan Khan",
+        "topic": "AI-enabled social counseling system based on Emotion-Focused Therapy"
+      },
+      {
+        "name": "Sarah Masud",
+        "topic": "Hate Speech diffusion in Social Media"
+      },
+      {
+        "name": "Yash Kumar Atri",
+        "topic": "Document Summarization"
+      },
+      {
+        "name": "Rajat Agarwal",
+        "topic": "Automated Answer Evaluation in Online Learning Assessments"
+      },
+      {
+        "name": "Venktesh V",
+        "topic": "Automated Pipelines for Learning Content Curation and Linking in Online Learning Platforms"
+      }
+    ]
+  },
+  "portfolio": {
+    "sponsors": [
+      {
+        "title": "Canadian Wanderlust",
+        "category": "My Travel Blog for my post-university travels",
+        "image": "canadian-wanderlus.jpg",
+        "url": "https://www.canadianwanderlust.com"
+      },
+      {
+        "title": "Fury Fighting Gear",
+        "category": "(offline now) A fighting gear company I started",
+        "image": "fury-fighting-gear.jpg",
+        "url": "http://www.timbakerdev.com"
+      },
+      {
+        "title": "Original Thai Food",
+        "category": "Website I built for a restaurant I like in Thailand",
+        "image": "original-thai-food.jpg",
+        "url": "http://www.timbakerdev.com/originalthaifood.github.io"
+      },
+      {
+        "title": "Resume Website",
+        "category": "A React based resume website template",
+        "image": "tu_delft.jpg",
+        "url": "http://www.timbakerdev.com"
+      },
+      {
+        "title": "Smirkspace",
+        "category": "(MVP Only) A React and Meteor based chat University project.",
+        "image": "smirkspace.jpg",
+        "url": "http://www.smirkspace.com"
+      }
+    ]
+  }
+}

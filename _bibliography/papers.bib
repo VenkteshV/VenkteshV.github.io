@@ -1,0 +1,332 @@
+@inproceedings{purohit-etal-2024-explora,
+    title = "{EXPLORA}: Efficient Exemplar Subset Selection for Complex Reasoning",
+    author = "Purohit*, Kiran  and
+      V*, Venktesh  and
+      Devalla, Raghuram  and
+      Yerragorla, Krishna Mohan  and
+      Bhattacharya, Sourangshu  and
+      Anand, Avishek",
+    editor = "Al-Onaizan, Yaser  and
+      Bansal, Mohit  and
+      Chen, Yun-Nung",
+    booktitle = "EMNLP'24, Proceedings of the 2024 Conference on Empirical Methods in Natural Language Processing",
+    month = nov,
+    year = "2024",
+    address = "Miami, Florida, USA",
+    publisher = "Association for Computational Linguistics",
+    url = "https://aclanthology.org/2024.emnlp-main.307/",
+    doi = "10.18653/v1/2024.emnlp-main.307",
+    pages = "5367--5388",
+    abstract = "Answering reasoning-based complex questions over text and hybrid sources, including tables, is a challenging task. Recent advances in large language models (LLMs) have enabled in-context learning (ICL), allowing LLMs to acquire proficiency in a specific task using only a few demonstration samples (exemplars). A critical challenge in ICL is the selection of optimal exemplars, which can be either task-specific (static) or test-example-specific (dynamic). Static exemplars provide faster inference times and increased robustness across a distribution of test examples. In this paper, we propose an algorithm for static exemplar subset selection for complex reasoning tasks. We introduce EXPLORA, a novel exploration method designed to estimate the parameters of the scoring function, which evaluates exemplar subsets without incorporating confidence information. EXPLORA significantly reduces the number of LLM calls to {\textasciitilde}11{\%} of those required by state-of-the-art methods and achieves a substantial performance improvement of 12.24{\%}. We open-source our code and data (https://github.com/kiranpurohit/EXPLORA)."
+}
+@inproceedings{v2025factirrealworldzeroshotopendomain,
+      title={FactIR: A Real-World Zero-shot Open-Domain Retrieval Benchmark for Fact-Checking}, 
+      author={Venktesh V and Vinay Setty},
+      year={2025},
+      eprint={2502.06006},
+      archivePrefix={arXiv},
+      booktitle="WWW'25, Proceedings of The ACM Web Conference 2025",
+      primaryClass={cs.IR},
+      url={https://arxiv.org/abs/2502.06006}, 
+}
+@inproceedings{v2024livefclivefactcheckingaudio,
+      title={LiveFC: A System for Live Fact-Checking of Audio Streams}, 
+      author={Venktesh V and Vinay Setty},
+      year={2025},
+      eprint={2408.07448},
+      archivePrefix={arXiv},
+      primaryClass={cs.CL},
+      booktitle ="The 18th ACM International Conference on Web Search and Data Mining (WSDM)",
+      url={https://arxiv.org/abs/2408.07448}, 
+}
+@inproceedings{10.1145/3626772.3657938,
+author = {Anand, Abhijit and V, Venktesh and Setty, Vinay and Anand, Avishek},
+title = {The Surprising Effectiveness of Rankers trained on Expanded Queries},
+year = {2024},
+isbn = {9798400704314},
+publisher = {Association for Computing Machinery},
+address = {New York, NY, USA},
+url = {https://doi.org/10.1145/3626772.3657938},
+doi = {10.1145/3626772.3657938},
+abstract = {An significant challenge in text-ranking systems is handling hard queries that form the tail end of the query distribution. Difficulty may arise due to the presence of uncommon, underspecified, or incomplete queries. In this work, we improve the ranking performance of hard or difficult queries while maintaining the performance of other queries. Firstly, we do LLM-based query enrichment for training queries using relevant documents. Next, a specialized ranker is fine-tuned only on the enriched hard queries instead of the original queries. We combine the relevance scores from the specialized ranker and the base ranker, along with a query performance score estimated for each query. Our approach departs from existing methods that usually employ a single ranker for all queries, which is biased towards easy queries, which form the majority of the query distribution. In our extensive experiments on the DL-Hard dataset, we find that a principled query performance based scoring method using base and specialized ranker offers a significant improvement of up to 48.4\% on the document ranking task and up to 25\% on the passage ranking task compared to the baseline performance of using original queries, even outperforming SOTA model.},
+booktitle = {Proceedings of the 47th International ACM SIGIR Conference on Research and Development in Information Retrieval},
+pages = {2652–2656},
+numpages = {5},
+keywords = {document ranking, hard queries, qpp, query rewriting},
+location = {Washington DC, USA},
+series = {SIGIR '24}
+}
+@inproceedings{10.1145/3626772.3657874,
+author = {V, Venktesh and Anand, Abhijit and Anand, Avishek and Setty, Vinay},
+title = {QuanTemp: A real-world open-domain benchmark for fact-checking numerical claims},
+year = {2024},
+isbn = {9798400704314},
+publisher = {Association for Computing Machinery},
+address = {New York, NY, USA},
+url = {https://doi.org/10.1145/3626772.3657874},
+doi = {10.1145/3626772.3657874},
+abstract = {With the growth of misinformation on the web, automated fact checking has garnered immense interest for detecting growing misinformation and disinformation. Current systems have made significant advancements in handling synthetic claims sourced from Wikipedia, and noteworthy progress has been achieved in addressing real-world claims that are verified by fact-checking organizations as well. We compile and release QuanTemp, a diverse, multi-domain dataset focused exclusively on numerical claims, encompassing comparative, statistical, interval, and temporal aspects, with detailed metadata and an accompanying evidence collection. This addresses the challenge of verifying real-world numerical claims, which are complex and often lack precise information, a gap not filled by existing works that mainly focus on synthetic claims. We evaluate and quantify these gaps in existing solutions for the task of verifying numerical claims. We also evaluate claim decomposition based methods, numerical understanding based natural language inference (NLI) models and our best baselines achieves a macro-F1 of 58.32. This demonstrates that QuanTemp serves as a challenging evaluation set for numerical claim verification.},
+booktitle = {Proceedings of the 47th International ACM SIGIR Conference on Research and Development in Information Retrieval},
+pages = {650–660},
+numpages = {11},
+keywords = {claim decomposition, fact-checking, numerical claims},
+location = {Washington DC, USA},
+series = {SIGIR '24}
+}
+
+@article{DBLP:journals/tkde/VMG24,
+  author       = {Venktesh V and
+                  Mukesh K. Mohania and
+                  Vikram Goyal},
+  title        = {TagRec++: Hierarchical Label Aware Attention Network for Question
+                  Categorization},
+  journal      = {{IEEE} Trans. Knowl. Data Eng.},
+  volume       = {36},
+  number       = {7},
+  pages        = {3529--3540},
+  year         = {2024},
+  url          = {https://doi.org/10.1109/TKDE.2024.3354504},
+  doi          = {10.1109/TKDE.2024.3354504},
+  timestamp    = {Tue, 18 Jun 2024 09:25:13 +0200},
+  biburl       = {https://dblp.org/rec/journals/tkde/VMG24.bib},
+  bibsource    = {dblp computer science bibliography, https://dblp.org}
+}
+@inproceedings{DBLP:conf/cikm/AnandLVA24,
+  author       = {Abhijit Anand and
+                  Jurek Leonhardt and
+                  Venktesh V and
+                  Avishek Anand},
+  editor       = {Edoardo Serra and
+                  Francesca Spezzano},
+  title        = {Understanding the User: An Intent-Based Ranking Dataset},
+  booktitle    = {Proceedings of the 33rd {ACM} International Conference on Information
+                  and Knowledge Management, {CIKM} 2024, Boise, ID, USA, October 21-25,
+                  2024},
+  pages        = {5323--5327},
+  publisher    = {{ACM}},
+  year         = {2024},
+  url          = {https://doi.org/10.1145/3627673.3679166},
+  doi          = {10.1145/3627673.3679166},
+  timestamp    = {Sat, 30 Nov 2024 21:10:28 +0100},
+  biburl       = {https://dblp.org/rec/conf/cikm/AnandLVA24.bib},
+  bibsource    = {dblp computer science bibliography, https://dblp.org}
+}
+@InProceedings{10.1007/978-3-030-99736-6_31,
+author="Venktesh, V.
+and Mohania, Mukesh
+and Goyal, Vikram",
+editor="Hagen, Matthias
+and Verberne, Suzan
+and Macdonald, Craig
+and Seifert, Christin
+and Balog, Krisztian
+and N{\o}rv{\aa}g, Kjetil
+and Setty, Vinay",
+title="Topic Aware Contextualized Embeddings for High Quality Phrase Extraction",
+booktitle="Advances in Information Retrieval",
+year="2022",
+publisher="Springer International Publishing",
+address="Cham",
+pages="457--471",
+abstract="Keyphrase extraction from a given document is the task of automatically extracting salient phrases that best describe the document. This paper proposes a novel unsupervised graph-based ranking method to extract high-quality phrases from a given document. We obtain the contextualized embeddings from pre-trained language models enriched with topic vectors from Latent Dirichlet Allocation (LDA) to represent the candidate phrases and the document. We introduce a scoring mechanism for the phrases using the information obtained from contextualized embeddings and the topic vectors. The salient phrases are extracted using a ranking algorithm on an undirected graph constructed for the given document. In the undirected graph, the nodes represent the phrases, and the edges between the phrases represent the semantic relatedness between them, weighted by a score obtained from the scoring mechanism. To demonstrate the efficacy of our proposed method, we perform several experiments on open source datasets in the science domain and observe that our novel method outperforms existing unsupervised embedding based keyphrase extraction methods. For instance, on the SemEval2017 dataset, our method advances the F1 score from 0.2195 (EmbedRank) to 0.2819 at the top 10 extracted keyphrases. Several variants of the proposed algorithm are investigated to determine their effect on the quality of keyphrases. We further demonstrate the ability of our proposed method to collect additional high-quality keyphrases that are not present in the document from external knowledge bases like Wikipedia for enriching the document with newly discovered keyphrases. We evaluate this step on a collection of annotated documents. The F1-score at the top 10 expanded keyphrases is 0.60, indicating that our algorithm can also be used for `concept' expansion using external knowledge.",
+isbn="978-3-030-99736-6"
+}
+@inproceedings{10.1007/978-3-031-11647-6_94,
+author="Chhabra, Aarish
+and Bansal, Nandini
+and Venktesh, V.
+and Mohania, Mukesh
+and Dwivedi, Deep",
+editor="Rodrigo, Maria Mercedes
+and Matsuda, Noburu
+and Cristea, Alexandra I.
+and Dimitrova, Vania",
+title="Obj2Sub: Unsupervised Conversion of Objective to Subjective Questions",
+booktitle="Artificial Intelligence  in Education. Posters and Late Breaking Results, Workshops and Tutorials, Industry and Innovation Tracks, Practitioners' and Doctoral Consortium",
+year="2022",
+publisher="Springer International Publishing",
+address="Cham",
+pages="467--470",
+abstract="Exams are conducted to test the learner's understanding of the subject. To prevent the learners from guessing or exchanging solutions, the mode of tests administered must have sufficient subjective questions that can gauge whether the learner has understood the concept by mandating a detailed answer. Hence, in this paper, we propose a novel hybrid unsupervised approach leveraging rule based methods and pre-trained dense retrievers for the novel task of automatically converting the objective questions to subjective questions. We observe that our approach outperforms the existing data-driven approaches by 36.45{\%} as measured by Recall@k and Precision@k.",
+isbn="978-3-031-11647-6"
+}
+@InProceedings{10.1007/978-3-031-11647-6_123,
+author="Goel, Vasu
+and Sahnan, Dhruv
+and Venktesh, V.
+and Sharma, Gaurav
+and Dwivedi, Deep
+and Mohania, Mukesh",
+editor="Rodrigo, Maria Mercedes
+and Matsuda, Noburu
+and Cristea, Alexandra I.
+and Dimitrova, Vania",
+title="K-12BERT: BERT for K-12 Education",
+booktitle="Artificial Intelligence  in Education. Posters and Late Breaking Results, Workshops and Tutorials, Industry and Innovation Tracks, Practitioners' and Doctoral Consortium",
+year="2022",
+publisher="Springer International Publishing",
+address="Cham",
+pages="595--598",
+abstract="Online education platforms are powered by various NLP pipelines, which utilize models like BERT to aid in content curation. Since the inception of the pre-trained language models like BERT, there have also been many efforts toward adapting these pre-trained models to specific domains. However, there has not been a model specifically adapted for the education domain (particularly K-12) across subjects to the best of our knowledge. In this work, we propose to train a language model on a corpus of data curated by us across multiple subjects from various sources for K-12 education. We also evaluate our model, K-12BERT, on downstream tasks like hierarchical taxonomy tagging.",
+isbn="978-3-031-11647-6"
+}
+
+@InProceedings{10.1007/978-3-030-86517-7_24,
+author="Venktesh, V.
+and Mohania, Mukesh
+and Goyal, Vikram",
+editor="Dong, Yuxiao
+and Kourtellis, Nicolas
+and Hammer, Barbara
+and Lozano, Jose A.",
+title="TagRec: Automated Tagging of Questions with Hierarchical Learning Taxonomy",
+booktitle="Machine Learning and Knowledge Discovery in Databases. Applied Data Science Track",
+year="2021",
+publisher="Springer International Publishing",
+address="Cham",
+pages="381--396",
+abstract="Online educational platforms organize academic questions based on a hierarchical learning taxonomy (subject-chapter-topic). Automatically tagging new questions with existing taxonomy will help organize these questions into different classes of hierarchical taxonomy so that they can be searched based on the facets like chapter, topic. This task can be formulated as a flat multi-class classification problem. Usually, flat classification based methods ignore the semantic relatedness between the terms in the hierarchical taxonomy and the questions. Some traditional methods also suffer from the class imbalance issues as they consider only the leaf nodes ignoring the hierarchy. Hence, we formulate the problem as a similarity-based retrieval task where we optimize the semantic relatedness between the taxonomy and the questions. We demonstrate that our method helps to handle the unseen labels and hence can be used for taxonomy tagging in the wild, like the question-answer forums. In this method, we augment the question with its corresponding answer to capture more semantic information and then align the question-answer pair's contextualized embedding with the corresponding label (taxonomy) vector representations. The representations are aligned by fine-tuning a transformer based model with a loss function that is a combination of the cosine similarity and hinge rank loss. The loss function maximizes the similarity between the question-answer pair and the correct label representations and minimizes the similarity to unrelated labels. Finally, we perform extensive experiments on two real-world datasets. We empirically show that the proposed learning method outperforms representations learned using the multi-class classification method and other state of the art methods by 6{\%} as measured by Recall@k. We also demonstrate the performance of the proposed method on unseen but related learning content like the learning objectives without re-training the network.",
+isbn="978-3-030-86517-7"
+}
+
+@InProceedings{10.1007/978-3-031-11644-5_39,
+author="Venktesh, V.
+and Akhtar, Md. Shad
+and Mohania, Mukesh
+and Goyal, Vikram",
+editor="Rodrigo, Maria Mercedes
+and Matsuda, Noburu
+and Cristea, Alexandra I.
+and Dimitrova, Vania",
+title="Auxiliary Task Guided Interactive Attention Model for Question Difficulty Prediction",
+booktitle="Artificial Intelligence  in Education",
+year="2022",
+publisher="Springer International Publishing",
+address="Cham",
+pages="477--489",
+abstract="Online learning platforms conduct exams to evaluate the learners in a monotonous way, where the questions in the database may be classified into Bloom's Taxonomy as varying levels in complexity from basic knowledge to advanced evaluation. The questions asked in these exams to all learners are very much static. It becomes important to ask new questions with different difficulty levels to each learner to provide a personalized learning experience. In this paper, we propose a multi-task method with an interactive attention mechanism, Qdiff, for jointly predicting Bloom's Taxonomy and difficulty levels of academic questions. We model the interaction between the predicted bloom taxonomy representations and the input representations using an attention mechanism to aid in difficulty prediction. The proposed learning method would help learn representations that capture the relationship between Bloom's taxonomy and difficulty labels. The proposed multi-task method learns a good input representation by leveraging the relationship between the related tasks and can be used in similar settings where the tasks are related. The results demonstrate that the proposed method performs better than training only on difficulty prediction. However, Bloom's labels may not always be given for some datasets. Hence we soft label another dataset with a model fine-tuned to predict Bloom's labels to demonstrate the applicability of our method to datasets with only difficulty labels.",
+isbn="978-3-031-11644-5"
+}
+
+@InProceedings{10.1007/978-3-031-26422-1_22,
+author="Gupta, Rishabh
+and Venktesh, V.
+and Mohania, Mukesh
+and Goyal, Vikram",
+editor="Amini, Massih-Reza
+and Canu, St{\'e}phane
+and Fischer, Asja
+and Guns, Tias
+and Kralj Novak, Petra
+and Tsoumakas, Grigorios",
+title="`John Ate 5 Apples' != `John Ate Some Apples': Self-supervised Paraphrase Quality Detection for Algebraic Word Problems",
+booktitle="Machine Learning and Knowledge Discovery in Databases",
+year="2023",
+publisher="Springer Nature Switzerland",
+address="Cham",
+pages="353--369",
+abstract="This paper introduces the novel task of scoring paraphrases for Algebraic Word Problems (AWP) and presents a self-supervised method for doing so. In the current online pedagogical setting, paraphrasing these problems is helpful for academicians to generate multiple syntactically diverse questions for assessments. It also helps induce variation to ensure that the student has understood the problem instead of just memorizing it or using unfair means to solve it. The current state-of-the-art paraphrase generation models often cannot effectively paraphrase word problems, losing a critical piece of information (such as numbers or units) which renders the question unsolvable. There is a need for paraphrase scoring methods in the context of AWP to enable the training of good paraphrasers. Thus, we propose ParaQD, a self-supervised paraphrase quality detection method using novel data augmentations that can learn latent representations to separate a high-quality paraphrase of an algebraic question from a poor one by a wide margin. Through extensive experimentation, we demonstrate that our method outperforms existing state-of-the-art self-supervised methods by up to 32{\%} while also demonstrating impressive zero-shot performance.",
+isbn="978-3-031-26422-1"
+}
+@misc{anand2023queryunderstandingagelarge,
+      title={Query Understanding in the Age of Large Language Models}, 
+      author={Avishek Anand and Venktesh V and Abhijit Anand and Vinay Setty},
+      year={2023},
+      eprint={2306.16004},
+      archivePrefix={arXiv},
+      primaryClass={cs.IR},
+      url={https://arxiv.org/abs/2306.16004}, 
+}
+@misc{anand2023contextawarequeryrewriting,
+      title={Context Aware Query Rewriting for Text Rankers using LLM}, 
+      author={Abhijit Anand and Venktesh V and Vinay Setty and Avishek Anand},
+      year={2023},
+      eprint={2308.16753},
+      archivePrefix={arXiv},
+      primaryClass={cs.IR},
+      url={https://arxiv.org/abs/2308.16753}, 
+}
+@inproceedings{10.1145/3539597.3573035,
+author = {Chowdhary, Maksimjeet and Goyal, Sanyam and V, Venktesh and Mohania, Mukesh and Goyal, Vikram},
+title = {Unsupervised Question Duplicate and Related Questions Detection in e-learning platforms},
+year = {2023},
+isbn = {9781450394079},
+publisher = {Association for Computing Machinery},
+address = {New York, NY, USA},
+url = {https://doi.org/10.1145/3539597.3573035},
+doi = {10.1145/3539597.3573035},
+abstract = {Online learning platforms provide diverse questions to gauge the learners' understanding of different concepts. The repository of questions has to be constantly updated to ensure a diverse pool of questions to conduct assessments for learners. However, it is impossible for the academician to manually skim through the large repository of questions to check for duplicates when onboarding new questions from external sources. Hence, we propose a toolQDup in this paper that can surface near-duplicate and semantically related questions without any supervised data. The proposed tool follows an unsupervised hybrid pipeline of statistical and neural approaches for incorporating different nuances in similarity for the task of question duplicate detection. We demonstrate thatQDup can detect near-duplicate questions and also suggest related questions for practice with remarkable accuracy and speed from a large repository of questions. The demo video of the tool can be found at https://www.youtube.com/watch?v=loh0_-7XLW4.},
+booktitle = {Proceedings of the Sixteenth ACM International Conference on Web Search and Data Mining},
+pages = {1200–1203},
+numpages = {4},
+keywords = {duplicate detection, semantic similarity},
+location = {Singapore, Singapore},
+series = {WSDM '23}
+}
+@inproceedings{10.1007/978-3-031-43430-3_33,
+author="Goel, Mayank
+and Venktesh, V.
+and Goyal, Vikram",
+editor="De Francisci Morales, Gianmarco
+and Perlich, Claudia
+and Ruchansky, Natali
+and Kourtellis, Nicolas
+and Baralis, Elena
+and Bonchi, Francesco",
+title="MWPRanker: An Expression Similarity Based Math Word Problem Retriever",
+booktitle="Machine Learning and Knowledge Discovery in Databases: Applied Data Science and Demo Track",
+year="2023",
+publisher="Springer Nature Switzerland",
+address="Cham",
+pages="372--377",
+abstract="Math Word Problems (MWPs) in online assessments help test the ability of the learner to make critical inferences by interpreting the linguistic information in them. To test the mathematical reasoning capabilities of the learners, sometimes the problem is rephrased or the thematic setting of the original MWP is changed. Since manual identification of MWPs with similar problem models is cumbersome, we propose a tool in this work for MWP retrieval. We propose a hybrid approach to retrieve similar MWPs with the same problem model. In our work, the problem model refers to the sequence of operations to be performed to arrive at the solution. We demonstrate that our tool is useful for the mentioned tasks and better than semantic similarity-based approaches, which fail to capture the arithmetic and logical sequence of the MWPs. A demo of the tool can be found at https://www.youtube.com/watch?v=gSQWP3chFIs.",
+isbn="978-3-031-43430-3"
+}
+
+@inproceedings{10.1145/3583780.3614940,
+author = {Gupta*, Rishabh and V*, Venktesh and Mohania, Mukesh and Goyal, Vikram},
+title = {James ate 5 oranges = Steve bought 5 pencils: Structure-Aware Denoising for Paraphrasing Word Problems},
+year = {2023},
+isbn = {9798400701245},
+publisher = {Association for Computing Machinery},
+address = {New York, NY, USA},
+url = {https://doi.org/10.1145/3583780.3614940},
+doi = {10.1145/3583780.3614940},
+abstract = {We propose SCANING, an unsupervised framework for paraphrasing via controlled noise injection. We focus on the novel task of paraphrasing algebraic word problems having practical applications in online pedagogy as a means to reduce plagiarism as well as evoke reasoning capabilities on the part of the student instead of rote memorization. This task is more complex than paraphrasing general-domain corpora due to the difficulty in preserving critical information for solution consistency of the paraphrased word problem, managing the increased length of the text and ensuring diversity in the generated paraphrase. Existing approaches fail to demonstrate adequate performance on at least one, if not all, of these facets, necessitating the need for a more comprehensive solution. To this end, we model the noising search space as a composition of contextual and syntactic aspects to sample noising functions. This allows for learning a denoising function, that operates over both aspects and produces semantically equivalent and syntactically diverse outputs through grounded noise injection. The denoising function serves as a foundation for training a paraphrasing function, which operates solely in the input-paraphrase space without carrying any direct dependency on noise. We demonstrate that SCANING improves performance in terms of producing semantically equivalent and syntactically diverse paraphrases by 35\% through extensive automated and human evaluation across 4 datasets.},
+booktitle = {Proceedings of the 32nd ACM International Conference on Information and Knowledge Management},
+pages = {679–688},
+numpages = {10},
+keywords = {MWP, denoising, education, neural networks, paraphrasing, self-supervised},
+location = {Birmingham, United Kingdom},
+series = {CIKM '23}
+}
+
+@misc{prabhu2024dexterbenchmarkopendomaincomplex,
+      title={DEXTER: A Benchmark for open-domain Complex Question Answering using LLMs}, 
+      author={Venktesh V. Deepali Prabhu and Avishek Anand},
+      year={2024},
+      eprint={2406.17158},
+      archivePrefix={arXiv},
+      primaryClass={cs.CL},
+      url={https://arxiv.org/abs/2406.17158}, 
+}
+@article{DBLP:journals/corr/abs-2310-18371,
+  publtype={informal},
+  author={Venktesh V and Sourangshu Bhattacharya and Avishek Anand},
+  title={In-Context Ability Transfer for Question Decomposition in Complex QA},
+  year={2023},
+  cdate={1672531200000},
+  journal={CoRR},
+  volume={abs/2310.18371},
+  url={https://doi.org/10.48550/arXiv.2310.18371}
+}
+@Inproceedings{nanekhan2025flashcheckexplorationefficientevidence,
+      title={FlashCheck: Exploration of Efficient Evidence Retrieval for Fast Fact-Checking}, 
+      author={Kevin Nanekhan and Venktesh V and Erik Martin and Henrik Vatndal and Vinay Setty and Avishek Anand},
+      year={2025},
+      eprint={2502.05803},
+      archivePrefix={arXiv},
+      booktitle="ECIR 2025, Proceedings of 47th European Conference ON Information Retrieval",
+      primaryClass={cs.IR},
+      url={https://arxiv.org/abs/2502.05803}, 
+}
