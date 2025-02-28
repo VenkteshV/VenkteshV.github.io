@@ -5,3 +5,5 @@
  
 [Project Link](https://github.com/kevin-rn/Efficient-Fact-checking) <br/>
 [Paper Link](https://arxiv.org/abs/2502.05803)
+
+**Status**: Graduated

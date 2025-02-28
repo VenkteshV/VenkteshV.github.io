@@ -15,16 +15,16 @@ profiles:
     content: about_alex.md
   - align: right
     content: about_deepali.md
-  - align: left
-    content: about_jonas.md
-  - align: right
-    content: about_venky.md
-  - align: left
-    content: about_abhijit.md
+  # - align: left
+  #   content: about_jonas.md
+  # - align: right
+  #   content: about_venky.md
+  # - align: left
+  #   content: about_abhijit.md
     
-  - align: right
-    content: about_mandeep.md    
+  # - align: right
+  #   content: about_mandeep.md    
 
-  - align: left
-    content: graduated.md
+  # - align: left
+  #   content: graduated.md
 ---

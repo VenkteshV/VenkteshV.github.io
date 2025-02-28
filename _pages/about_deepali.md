@@ -5,3 +5,5 @@
 domain corpus, and the corresponding evidence relevance and veracity labels. Given this dataset, we also aim to characterize the retrieval performance of key query planning paradigms, especially those of decomposition as they have shown promising results in other tasks. Finally, we observe their effect on the outcome of the verification pipeline and draw insights.*
 
 [Project Link](https://anonymous.4open.science/r/QuanTempPlus-A5B2)
+
+**Status**: Graduated
