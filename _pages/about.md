@@ -2,16 +2,16 @@
 layout: about
 title: about
 permalink: /
-subtitle: <a href='#'>Postdoctoral Researcher at the TU Delft</a> 
+subtitle: <a href='#'>Assistant professor at Stockholm University</a> 
 
 profile:
   align: right
   image: venky.jpg
   image_circular: false # crops the image to make it circular
   more_info: >
-    <p>3.West.600, Building 28</p>
-    <p>TU Delft,</p>
-    <p>Delft, The Netherlands</p>
+    <p></p>
+    <p>DSV</p>
+    <p>Kista, Sweden</p>
 
 news: true # includes a list of news items
 selected_papers: true # includes a list of papers marked as "selected={true}"
